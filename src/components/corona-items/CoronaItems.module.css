@@ -1,0 +1,31 @@
+.THEADER{
+    font-weight: bolder;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    background:#24282c;
+    line-height: 100%;
+    
+}
+.TABLE {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.438);
+   
+}
+
+
+
+.THEADER:hover{
+    cursor: pointer;
+}
+
+.FONTICON{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5%;
+}
+@media (max-width:500px){
+    .THEADER{
+        font-size: .8em;
+    }
+}
